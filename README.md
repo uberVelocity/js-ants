@@ -19,3 +19,6 @@ npm run dev
 Your server should be now running on `localhost:5000/api/sim`. Check the message in your browser as well as the logging in your terminal that ran the server.
 
 Whenever you modify and save your code, `nodemon` will automatically restart the server so your changes will be visible in the browser immediately.
+
+## Inspiration
+https://curran.github.io/HTML5Examples/
