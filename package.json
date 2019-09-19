@@ -1,0 +1,23 @@
+{
+  "name": "js-ants",
+  "version": "1.0.0",
+  "description": "Web ant simulation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uberVelocity/js-ants.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uberVelocity/js-ants/issues"
+  },
+  "homepage": "https://github.com/uberVelocity/js-ants#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
