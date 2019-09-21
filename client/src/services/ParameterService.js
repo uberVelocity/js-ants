@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/api/sim/';
+const url = 'api/sim/';
 
 class ParameterService {
     // Post parameters
