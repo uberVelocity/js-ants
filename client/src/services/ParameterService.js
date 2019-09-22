@@ -4,11 +4,13 @@ const url = 'api/sim/';
 
 class ParameterService {
     // Post parameters
-    static getSimResponse(numberOfAnts) {
+    static getSimResponse(numberOfAnts, mapX, mapY) {
         return new Promise(async (resolve, reject) => {
             try {
                 const response = await axios.post(url, {
-                    numberOfAnts
+                    numberOfAnts,
+                    mapX,
+                    mapY
                 });
                 resolve(response.data);
             } catch(err) {
