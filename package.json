@@ -10,7 +10,8 @@
   "dependencies": {
     "express" : "*",
     "body-parser" : "*",
-    "cors" : "*"
+    "cors" : "*",
+    "axios" : "*"
   },
   "repository": {
     "type": "git",
