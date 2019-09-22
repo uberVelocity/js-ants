@@ -28,7 +28,7 @@ Whenever you modify and save your code, `nodemon` will automatically restart the
 
 With both front-end and back-end running, go to `localhost:8080` to use the app. Currently, the state of the app looks as follows:
 ![Hello world](ants-on-canvas.png)
-One is able to tweak parameters of the simulation by using sliders, as seen on the right-hand side of the app. The data is sent to the back-end where the simulation is running. The state of the simulation will be sent to the front end for the user to observe it. We are currently working on finding the best methodology to display the state of the simulation.
+One is able to tweak parameters of the simulation by using sliders, as seen on the right-hand side of the app. The data is sent to the back-end where the simulation is running. The client sends the parameters and the back-end creates the model of the ants with the desired parameters. On the canvas we see ant objects with properties, displayed as red circles.
 
 ## Inspiration
 https://curran.github.io/HTML5Examples/
