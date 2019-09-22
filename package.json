@@ -7,22 +7,13 @@
     "start": "node server/index.js",
     "dev": "nodemon server/index.js"
   },
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "express" : "*",
     "body-parser" : "*",
-    "cors" : "*",
-    "axios" : "*"
+    "cors" : "*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/uberVelocity/js-ants.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/uberVelocity/js-ants/issues"
-  },
-  "homepage": "https://github.com/uberVelocity/js-ants#readme",
   "devDependencies": {
     "nodemon": "^1.19.2"
   }
