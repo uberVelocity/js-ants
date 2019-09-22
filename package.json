@@ -1,13 +1,17 @@
 {
   "name": "js-ants",
   "version": "1.0.0",
+  "engines": {
+    "node" : ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
   "description": "Web ant simulation",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js"
   },
-  "author": "",
+  "author": "Mihai Popescu",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.19.2"
